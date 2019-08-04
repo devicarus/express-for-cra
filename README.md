@@ -9,7 +9,7 @@
 - Mongoose
 - Nodemon dev server
 - [Dynamic API routing](#routing)
-- Works with CRA app out-of-the-box
+- [Works with CRA app out-of-the-box](#create-react-app)
 - Environment variables
 
 ## Usage
@@ -33,6 +33,10 @@ yarn start
 ### Routing
 
 All files in the `routes` directory are automaticaly `required()` as Express routers, meaning all you have to do is to create a new file in this directory (take a look at the `users` example).
+
+### Create React App
+
+
 
 ## Author
 
