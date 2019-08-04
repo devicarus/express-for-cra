@@ -6,6 +6,7 @@
 > Express server for Create React App frontend
 
 ## Features
+
 - Mongoose
 - Nodemon dev server
 - [Dynamic API routing](#routing)
@@ -27,6 +28,13 @@ yarn run dev
 # Start production server
 yarn start
 ```
+
+## Commands
+
+| Command        | Description                    |
+| -------------- | ------------------------------ |
+| `yarn run dev` | Starts dev server with nodemon |
+| `yarn start`   | Starts production server       |
 
 ## Docs
 
