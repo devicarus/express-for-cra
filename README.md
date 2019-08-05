@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Express server for Create React App frontend
+> Express backend for your Create React App frontend
 
 ## Features
 
