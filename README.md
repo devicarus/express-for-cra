@@ -10,7 +10,7 @@
 - Mongoose
 - Nodemon dev server
 - [Dynamic API routing](#routing)
-- Works with CRA app out-of-the-box
+- [Works with CRA app out-of-the-box](#create-react-app)
 - Environment variables
 
 ## Usage
@@ -22,11 +22,11 @@ git clone https://github.com/DEVICARUS/express-for-cra.git
 # Install dependencies
 yarn
 
+# Create React App in the client folder
+create-react-app client
+
 # Start development server (requires nodemon)
 yarn run dev
-
-# Start production server
-yarn start
 ```
 
 ## Commands
@@ -41,6 +41,10 @@ yarn start
 ### Routing
 
 All files in the `routes` directory are automaticaly `required()` as Express routers, meaning all you have to do is to create a new file in this directory (take a look at the `users` example).
+
+### Create React App
+
+The production server pulls the app from the `client/build` folder, so remember to build your CRA-based app for the production. 
 
 ## Author
 
