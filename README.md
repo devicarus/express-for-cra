@@ -12,6 +12,7 @@
 - [Dynamic API routing](#routing)
 - [Works with CRA app out-of-the-box](#create-react-app)
 - Environment variables
+- [File templates + generator script](#generator)
 
 ## Usage
 
@@ -31,10 +32,11 @@ yarn run dev
 
 ## Commands
 
-| Command        | Description                    |
-| -------------- | ------------------------------ |
-| `yarn run dev` | Starts dev server with nodemon |
-| `yarn start`   | Starts production server       |
+| Command              | Description                              |
+| -------------------- | ---------------------------------------- |
+| `yarn run dev`       | Starts dev server with nodemon           |
+| `yarn start`         | Starts production server                 |
+| `yarn run generator` | Runs [file generator script](#generator) |
 
 ## Docs
 
@@ -45,6 +47,16 @@ All files in the `routes` directory are automaticaly `required()` as Express rou
 ### Create React App
 
 The production server pulls the app from the `client/build` folder, so remember to build your CRA-based app for the production. 
+
+### Generator
+
+The generator is a simple script for creating new Mongoose models (and other things) using the templates from the `templates` directory. Simply run `yarn run generator` to start using it.
+
+**Currently supports**
+
+- Mongoose models
+
+- Express routes
 
 ## Author
 
