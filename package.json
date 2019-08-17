@@ -1,6 +1,6 @@
 {
   "name": "express-for-cra",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "start": "node ./src/bin/www",
@@ -18,6 +18,6 @@
     "rmext": "^0.0.1"
   },
   "devDependencies": {
-    "inquirer": "^6.5.1"
+    "tempter": "^1.0.3"
   }
 }

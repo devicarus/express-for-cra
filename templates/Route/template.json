@@ -1,4 +1,4 @@
 {
     "dir": "src/routes",
-    "type": "file"
+    "type": "spread"
 }
