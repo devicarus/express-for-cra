@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to express-for-cra 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.2.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
 > Express backend for your Create React App frontend
