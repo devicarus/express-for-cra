@@ -8,11 +8,11 @@ var router = express.Router({
 require('../connect')
 
 // Load NAME model
-var NAME = require('../models/NAME')
+var capNAME = require('../models/capNAME')
 
 // Routes...
 router.post('/add', function (req, res, next) {
-    data = new NAME({
+    data = new capNAME({
         name: req.body.name
     })
     data.save(function (err) {
@@ -22,13 +22,13 @@ router.post('/add', function (req, res, next) {
 })
 
 router.get('/list', function (req, res, next) {
-    NAME.find(null, 'name').then(function (data) {
+    capNAME.find(null, 'name').then(function (data) {
         res.send(data)
     })
 })
 
 router.get('/find', function (req, res, next) {
-    NAME.findById(req.query.id).then(function (data) {
+    capNAME.findById(req.query.id).then(function (data) {
         res.send(data)
     })
 })
