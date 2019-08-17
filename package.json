@@ -18,6 +18,6 @@
     "rmext": "^0.0.1"
   },
   "devDependencies": {
-    "inquirer": "^6.5.1"
+    "tempter": "^1.0.0"
   }
 }
